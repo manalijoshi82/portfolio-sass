@@ -1,0 +1,128 @@
+<DOCTYPE <html>
+<head>
+	<title>Contact Me</title>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link href='https://fonts.googleapis.com/css?family=Great+Vibes|Droid+Serif' rel='stylesheet' type='text/css'>
+	<style>
+		body{
+			background-color: #E0EBE8;
+			width: 100%;
+			margin: 0 auto;
+		}
+		.sitetitle h1{
+			font-size: 8em;	
+			text-align: center;
+			/*font-family: 'Capriola', sans-serif;*/
+			font-family: 'Great Vibes', cursive;
+			color: #4AB19A;
+		}
+		h2{
+			font-size: 1.5em;
+			font-family: 'Droid Serif', serif;
+			margin-left: 10%;
+			margin-bottom: 3%;
+		}
+		input{
+			display: block;
+			width: 90%;
+			height: 8%;
+			margin-top: 0px;
+			margin-right: 0px;
+			border-radius: 4%;
+		}
+
+		.box{
+			margin-left: 10%;
+			font-size: 1em;
+			font-family: 'Droid Serif', serif;
+		}
+
+		textarea{
+			width: 90%;
+			height: 50%;
+			border-radius: 1%;
+			border: none;
+		}
+
+		p:nth-child(5){
+			padding-top: 1.5%;
+			font-size: 1.2em;
+		}
+
+		p:nth-child(5) input{
+			background-color: #4AB19A;
+			height: 8%;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+      <div class="sitetitle">
+        <h1>Manali Joshi</h1>
+      </div>
+    </div>
+
+    <div class="nav navbar-default">
+        <div class="container">
+
+              <div class="navbar-header">
+
+                  <button type="button" class="navbar-toggle" data-toggle="collapse"
+                          data-target=".navbar-collapse">
+
+                   <span class="sr-only">Toggle navigation</span>
+
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+                   <span class="icon-bar"></span>
+
+
+                  </button>
+              </div>
+            
+              <div class="collapse navbar-collapse">
+                  <ul class="nav  navbar-nav" role="navigation">
+                    <li><a href="portfolio.html">Work</a></li>
+                    <li><a href="">Resume</a></li>
+                    <li><a href="contact.html" target="_blank">Contact</a></li>
+                  </ul>
+              </div>
+          </div>
+        </div>
+
+	<div class="container">
+		<h2>Contact</h2>
+			<form>
+				<p class="box">
+					 Your Name (required)
+					</br>
+					 <input type="text" name="Your-name" required>
+				 </p>
+				<p class="box">
+					Your Email (required)
+					</br>
+					<input type="email" name="Your-email" required>
+				</p>
+				<p class="box">
+					Subject 
+					</br>
+					<input type="text" name="Subject">
+				</p>
+				<p class="box">
+					Your Message 
+					</br>
+					<textarea name="Your-message"></textarea>
+				</p>
+				<p class="box">
+					<input type="button" value="SEND">
+				</p>
+			</form>
+
+
+	</div>
+	
+</body>
+</html>

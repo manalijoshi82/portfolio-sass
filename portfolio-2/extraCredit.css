@@ -1,0 +1,384 @@
+/* Cross Browser Compatability CSS */
+/**
+ * html5doctor.com Reset Stylesheet (Eric Meyer's Reset Reloaded + HTML5 baseline)
+ * v1.6.1 2010-09-17 | Authors: Eric Meyer & Richard Clark
+ * html5doctor.com/html-5-reset-stylesheet/
+ */
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after { content: ""; content: none; }
+
+ins { background-color: #ff9; color: #000; text-decoration: none; }
+
+mark { background-color: #ff9; color: #000; font-style: italic; font-weight: bold; }
+
+del { text-decoration: line-through; }
+
+abbr[title], dfn[title] { border-bottom: 1px dotted; cursor: help; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+hr { display: block; height: 1px; border: 0; border-top: 1px solid #ccc; margin: 1em 0; padding: 0; }
+
+input, select { vertical-align: middle; }
+
+
+/* Write your CSS styles here */
+body {
+	background: url("images/bg.png");
+  margin: auto;
+}
+
+@font-face{
+  font-family: 'Wisdom Script AI' ;
+
+  src = url(images/Wisdom Script.otf);
+}
+
+p {
+  font-family: 'Noticia Text', serif;
+  width: 515px;
+  height: 200px;
+  line-height: 2em;
+  text-align: center;
+  margin: 0 auto;
+  color: #F16072;
+}
+
+h1 {
+	color:pink;
+	text-align:center;
+
+}
+
+#logo_IMG{
+  padding-top: 20px;  
+  margin-left: 345px;
+  padding-bottom: 35px;
+}
+
+#middleIMG{
+  width: 868px;
+  height: 388px;
+  left: 201px;
+  position: absolute;
+  z-index: 99;
+  top: 265px;
+}
+
+#leftIMG{
+  position: absolute;
+  top: 365px;
+  left: 150px;
+}
+
+#rightIMG{
+  right: 108px;
+  position: absolute;
+  top: 300px;
+  left: 815px;
+}
+
+#signUp{
+  width: 500px;
+  height: 50px;
+  z-index: 100;
+  position: absolute;
+  left: 425px;
+  color: black;
+  font-family: 'Wisdom Script AI';
+  font-size: 1.4em;
+  top: 320px;
+
+}
+
+.h_line , .another_line{
+  width: 848px;
+  height: 1px;
+  border-top: dotted;
+  color: #ede6da;
+  z-index: 150;
+  position: absolute;
+  top: 370px;
+  left: 210px;
+}
+
+.another_line{
+  border-top: solid;
+  top: 375px;
+
+}
+
+h2 {
+  width: 400px;
+  z-index: 101;
+  position: absolute;
+  color: #F16072;
+  left: 470px;
+  top: 415px;
+  font-size: 1.3em;
+}
+
+#belowFold{
+  background-color: #f6515d;
+  width: 100%;
+  height: 600px;
+  z-index: 110;
+  position: absolute;
+  top: 560px;
+}
+
+#belowFold img{
+  top: 148px;
+  left: 100px;
+  position: absolute;
+}
+
+.center #centerIMG{
+  left: 490px;
+}
+
+.right #rightIMG{
+  left: 840px;
+}
+
+.titles{
+  font-family: 'Wisdom Script AI';
+  left: 545px;
+  z-index: 110;
+  position: absolute;
+  margin-top: 40px;
+  font-size: 25px;
+}
+/******************
+.left , .center ,.right,.title, .main_text{
+  color: #333333;
+  font-family: 'Noticia Text', serif;
+  width: 289px;
+  height: 46px;
+}
+
+********************/
+
+.left{
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+.title , .center_title, .right_title{
+  color: #333333;
+  font-family: 'Noticia Text', serif;
+  width: 233px;
+  height: 50px;
+  left: 100px;
+  top: 100px;
+  position: absolute;
+  text-align: left;
+  line-height: 20px;
+}
+
+#left_author, #center_author, #right_author{
+  width: 233px;
+  height: 20px;
+  left: 100px;
+  top: 157px;
+  position: absolute;
+  font-size: 13px;
+}
+
+.main_text, .center_main_text, .right_main_text{
+  width: 303px;
+  height: 200px;
+  color: #333333;
+  left: 100px;
+  top: 190px;
+  line-height: 20px;
+  position: absolute;
+  text-align: left;
+  font-size: small;
+}
+.center_title, #center_author{
+    left: 490px;
+}
+
+.right{
+  float: left;
+}
+
+.center_main_text{
+  left: 490px;
+}
+.right_title, #right_author{
+  left: 840px;
+}
+
+.right_main_text{
+  left: 840px;
+}
+
+.more{
+  color: white;
+}
+
+form{
+ 
+  left: 390px;
+  top: 465px;
+  position: absolute;
+  z-index: 150;
+}
+
+#email{
+  height: 30px;
+  width: 330px;
+  border-top-left-radius: 5px 7px;
+  border-bottom-left-radius: 5px 7px;
+  padding-left: 5px;
+  font-size: 0.8em;
+  font-family: 'Noticia Text', serif;
+}
+
+#submit{
+  background-color: #F6525D;
+  font-size: 1.2em;
+  font-family: 'Noticia Text', serif;
+  color: white;
+  width: 157px;
+  height: 36px;
+  left: 335px;
+  top: 0px;
+  position: absolute;
+  letter-spacing: 1px;
+  border-top-right-radius: 5px 7px;
+  border-bottom-right-radius: 5px 7px;
+}
+
+
+#bottom_black{
+  background-color: black;
+  width: 100%;
+  height: 363px;
+  top: 375px;
+  position:absolute;
+
+}
+
+#bottom_black p{
+  width: 470px;
+  height: 87px;
+  text-align: left;
+  margin: 0;
+  margin-left: 100px;
+  padding-top: 40px;
+  font-size: 13px;
+}
+
+#bottom_black h3{
+  font-family: 'Wisdom Script AI';
+  margin-top: 40px;
+  font-size: 25px;
+  color: #D5C6B9;
+  margin-left: 100px;
+}
+
+#getintouch{
+  top: 0px;
+  left: 510px;
+  position: absolute;
+  }
+
+
+#form_bottom{
+  left: 612px;
+  top: 108px;
+  position: absolute;
+  z-index: 150;
+}
+#form_name{
+  width: 250px;
+  height: 20px;
+  background-color: #FFEFDB;
+  padding-left: 5px;
+  font-size: 0.8em;
+  font-family: 'Noticia Text', serif;
+}
+
+#form_email{
+  width: 250px;
+  height: 20px;
+  margin-left: 3px;
+  background-color: #FFEFDB;
+  padding-left: 5px;
+  font-size: 0.8em;
+  font-family: 'Noticia Text', serif;
+}
+
+#form_contact{
+  width: 517px;
+  height: 20px;
+  margin-top: 6px;
+  background-color: #FFEFDB;
+  padding-left: 5px;
+  font-size: 0.8em;
+  font-family: 'Noticia Text', serif;
+}
+
+#form_msg{
+  width: 517px;
+  height: 80px;
+  margin-top: 6px;
+  background-color: #FFEFDB;
+  padding-left: 5px;
+  font-size: 0.8em;
+  font-family: 'Noticia Text', serif;
+}
+
+#form_submit{
+  width: 157px;
+  height: 38px;
+  margin-top: 6px;
+  position: absolute;
+  left: 370px;
+  top: 153px;
+  background-color: #DCC099;
+  font-size: 0.9em;
+  font-family: 'Noticia Text', serif;
+}
+
+footer {
+  background-color: #F6525D;
+  color: black;
+  top: 733px;
+  position: absolute;
+  height: 41px;
+  width: 100%;
+  text-align: center;
+}
+
+h5{
+  padding-top: 12px;
+}

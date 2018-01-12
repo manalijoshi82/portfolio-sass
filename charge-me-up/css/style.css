@@ -1,0 +1,46 @@
+body{
+  box-size:border-box;
+  
+  font-size:12px;
+}
+
+.outerRectangle{
+  width: 200px;
+  height: 60px;
+  border: 2px solid #521515;
+  margin-top:200px;
+  margin-left:400px;
+}
+
+.charge{
+  width: 8px;
+  height:36px;
+  background-color:#521515; 
+  margin-top:-48px;
+  margin-left:600px;
+}
+
+.innerRectangle{
+  width: 1px;
+  height: 52px;
+  margin-top:2px;
+  margin-left:2px;
+}
+
+
+button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.7em;
+}
+#chargeMe {
+  background-color:green;
+  margin-left:300px;
+  margin-top: 50px;
+}
+
+#drainMe{
+  background-color:red;
+  margin-left:100px;
+}
+

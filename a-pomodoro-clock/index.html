@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>A Pomodoro Clock</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pangolin" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css/jquery.svg.css"> 
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <audio id="buzzer" src="https://raw.githubusercontent.com/Reggie01/Zipline/master/Zipline/PomodoroClock/electronic_store_bell_two_rings.mp3"></audio>
+
+<div class="container">
+  <h1>A Pomodoro Clock</h1>
+  <div id="controls">
+    <div class="breakCntr">
+    <p>BREAK</p>
+      <button class="minus">-</button>
+      <span>1</span>
+      <button class="plus">+</button>
+  </div><!-- end of breakCntr -->
+  <div class="sessionCntr">
+    <p>SESSION</p>
+    <button class="minus">-</button>
+    <span>1</span>
+    <button class="plus">+</button>
+  </div><!-- end of sessionCntr -->
+  </div><!-- end of controls -->
+ 
+  <div id="timer">
+    
+    <div class="clickMe"></div>
+    <div id="downUp"></div>
+    <div id="topDown"></div>
+    <div id="state">Session</div>
+    <div id="countdown"></div>
+    
+
+  </div>
+  
+  
+  <!--<button class="start">Start</button>
+  <button class="pause">Pause</button>-->
+  <button class="reset">Reset</button>
+  
+</div><!-- end of container -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

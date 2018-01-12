@@ -1,0 +1,88 @@
+body{
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 12px;
+  
+background: #bc096b; /* Old browsers */
+background: -moz-linear-gradient(45deg, #8a9aae 0%, #96a4b6 16%, #a1aebe 32%, #adb8c6 48%, #b9c2ce 64%, #c5ccd6 80%, #d0d7df 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #8a9aae), color-stop(16%, #96a4b6), color-stop(32%, #a1aebe), color-stop(48%, #adb8c6), color-stop(64%, #b9c2ce), color-stop(80%, #c5ccd6), color-stop(100%, #d0d7df)); /* Chrome, Safari4+ */
+background: -webkit-linear-gradient(45deg, #8a9aae 0%, #96a4b6 16%, #a1aebe 32%, #adb8c6 48%, #b9c2ce 64%, #c5ccd6 80%, #d0d7df 100%); /* Chrome10+, Safari5.1+ */
+background: -o-linear-gradient(45deg, #8a9aae 0%, #96a4b6 16%, #a1aebe 32%, #adb8c6 48%, #b9c2ce 64%, #c5ccd6 80%, #d0d7df 100%); /* Opera 11.10+ */
+  
+}
+
+#calculator{
+  width: 300px;
+  height: 410px;
+  background-color: #dfd8d0;
+  border-radius: 20px;
+  border: 2px solid #908b85;
+  margin:0 auto;
+  margin-top:30px;
+}
+#title h4{
+  text-align: center;
+  padding-top:10px;
+  font-size: 1.8em;
+}
+
+#outputBox{
+ width: 270px;
+  height: 60px;
+  font-size: 3em;
+  color:#3a3a3a;
+  text-align: right;
+  margin: 0 auto;
+  background-color:white;
+  border-radius: 5px;
+  
+}
+
+#buttons{
+  font-size: 2em;
+  color: #fff;
+  display: inline-block;
+  width: 280px;
+  height: auto;
+  margin-top: 15px;
+  margin-left: 15px;
+}
+
+button{
+  border-radius: 8px;
+  border: none;
+  background-color: #3a3a3a;
+  height: 40px;
+  width: 50px;
+  padding-top:3px;
+  margin:2px 4px 12px 4px;
+  box-shadow:inset 0 0 4px #FFF,
+	inset 0px 1px #E6E6E6, 0 1px 1px #323643,
+	inset 0px 1px #7b839b, 0 1px 1px rgba(0,0,0,.5);
+  
+}
+
+#clear{
+  background-color:#d02200;
+	border:1px solid #d02200;
+  width: 120px;
+}
+
+#equal{
+  width: 120px;
+}
+
+.divide, .multiply, .minus, .plus, #equal{
+  background-color:#00004c;
+}
+
+footer h4{
+  width: 400px;
+  height: auto;
+  padding-top:40px;
+  margin-left:-20px;
+  
+}
+
+footer span{
+  color:#d02200
+}

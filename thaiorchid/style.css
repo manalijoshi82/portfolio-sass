@@ -1,0 +1,215 @@
+*{
+	box-sizing:border-box;
+}
+
+body{
+	background-color:#E6A8D7;
+}
+.main-wrapper{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.image{
+	background-image: url(orchidbg.jpg);
+	background-repeat: repeat-y;
+	position: absolute;
+	width: 400px;
+	height: 1622px;
+	z-index: 99999;
+
+}
+
+/***********************************
+layout background colors
+************************************
+
+.main-header{background-color: #384047;}
+.main-nav{background-color: #3f8abf;}
+.quote{background-color:  #de7cab;}
+.locations{background-color: #bfe3d0;}
+.locations .sanjose {background-color: #bac674;}
+.locations .campbell{background-color: #3f43fc;}
+.locations .workhoursSJ{background-color: #bd8ffc;}
+.locations .workhoursCAMPBELL{background-color: #34fcab;}
+
+*/
+
+
+
+
+/********************
+HEADER
+*********************/
+.main-header{
+	padding: 20px;
+	width: 67%;
+	min-height: 150px;
+	float: right;
+
+}
+
+h1{
+	color: #F5F5DC;
+	font-family: 'Tangerine', cursive;
+	font-size: 6em;
+	font-weight: bold;
+	white-space: nowrap;
+	margin-left: 70px;
+}
+
+.main-header h2{
+	color: #9932CC;
+	float: right;
+	width: 36%;
+	margin-right: -40px;
+}
+
+/********************
+NAVIGATION
+*********************/
+.main-nav,
+.main-nav li,
+.main-header h1,
+.main-header h2{
+	display: inline-block;
+}
+.main-nav{
+	list-style: none;
+	width: 98%;
+	padding: 2px;
+	display: -webkit-flex;
+	justify-content: space-around;
+	background-color: #3a2239;
+}
+.main-nav li{
+	font-family: 'Vollkorn', serif;
+	font-size: 1.3em;
+	color: #F5F5DC;
+	padding: 10px;
+
+}
+a{
+	text-decoration: none;
+}
+a:visited{
+	color: #F5F5DC;
+}
+a:link{
+	color: #F5F5DC;
+}
+a:hover{
+	color:#deb95e;
+}
+
+/********************
+QUOTE
+*********************/
+.quote {
+	width: 600px;
+	height: 155px;
+	color: #3a2239;
+	font-size: 1.8em;
+	line-height: 1.3em;
+	font-family: 'Josefin Slab', serif;
+	margin-right: 13%;
+	padding: 30px;
+	display: block;
+	float: right;
+}
+
+p.quote::first-letter{
+	font-size: 200%;
+	color: #F5F5DC;
+	font-family: 'Tangerine', cursive;
+}
+
+/********************
+LOCATIONS
+*********************/
+.locations{
+	width: 550px;
+	float: right;
+	font-size: 1.1em;
+	display: block;
+	margin-right: 200px;
+}
+
+.heading {
+	font-style: italic;
+	color: #F5F5DC;
+	padding: 13px;
+
+}
+
+
+.locations .sanjose {
+	display: inline-block;
+	font-size: 100%;
+	padding: 17px;
+	margin: 0;
+	margin-right: 30px;
+	color: #3a2239;
+	float: right;
+
+}
+.locations .campbell{
+	display: inline-block;
+	font-size: 100%;
+	padding: 20px;
+	margin: 0;
+	color: #3a2239;
+
+}
+.locations p span{
+	display:block;
+}
+
+p.sanjose span:first-child, p.campbell span:first-child{
+	font-weight: bold;
+	font-size: 130%;
+	padding-bottom: 5px;
+}
+
+.locations .workhoursSJ{
+	display: inline-block;
+	padding: 15px;
+	margin: 0;
+ 	font-size: 90%;
+ 	float: left;
+}
+.locations .workhoursCAMPBELL{
+	display: inline-block;
+	margin: 0;
+	padding: 15px;
+	margin-left: 77px;
+	font-size: 90%;
+	float: right;
+}
+
+/********************
+MEDIA QUERIES
+*********************/
+
+@media (max-width:1024px){
+	.image{
+		display: none;
+	}
+
+	.main-header,.quote, 
+	.heading,
+	.locations
+	{
+		float: left;
+	}	
+
+	.main-header h1{
+		font-size: 5em;
+
+	}
+	.main-header h2{
+		white-space: nowrap;
+	}
+}
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Simon Game</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <body>
+  <!--<h2>Repeat 20 steps to win!</h2>-->
+  <center>
+    
+    <div class="base">
+      
+     <audio id="greenSound" preload='auto' src="https://s3.amazonaws.com/freecodecamp/simonSound1.mp3" preload='auto'></audio>
+      <audio id="redSound"  preload='auto' src="https://s3.amazonaws.com/freecodecamp/simonSound2.mp3"  preload='auto'></audio>
+      <audio id="yellowSound" preload='auto' src="https://s3.amazonaws.com/freecodecamp/simonSound3.mp3" preload='auto'></audio>
+      <audio  id="blueSound" preload='auto' src="https://s3.amazonaws.com/freecodecamp/simonSound4.mp3" preload='auto'></audio>
+       <audio id="error"  preload='auto'
+src="https://dl.dropboxusercontent.com/s/htu5p4490m164nz/errorSound.mp3" preload='auto'></audio>  
+       
+      
+      <span class="center">
+        <div class="outerGreen">
+           <div class="greenBtn"></div>
+        </div>
+        <div class="outerRed">
+          <div class="redBtn"></div>
+        </div>
+        <div class="outerYellow">
+          <div class="yellowBtn"></div>
+        </div>
+          <div class="outerBlue">
+            <div class="blueBtn"></div>
+          </div>
+       
+       
+          
+        
+        
+        
+          <h1>Simon</h1>
+        <p class="display"></p>
+        <span class="controls">
+          <span class="start"></span>
+          <p>START</p>
+          <span class="strict"></span>
+          <p>STRICT</p>
+          <span class="onOff"></span>
+        </span>
+        <button class="reset">RESET</button>
+
+          
+        
+      </span><!--end of center-->
+    </div>
+  </center>
+  <!--<footer>
+    <h3>Coded by <span>Manali Joshi</span></h3>
+  </footer>-->
+</body>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+    <script src="js/index.js"></script>
+
+</body>
+</html>

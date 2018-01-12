@@ -1,0 +1,59 @@
+body{
+  background-color: #ff9394;
+}
+
+h1{
+  color: 	#7d5189;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+ header p{
+  color: 	#7d5189;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+#box{
+  text-align:center;
+  border: 1px solid #7d5189;
+  background-color:	#000;
+  height: 10em;
+  margin-top: 2em;
+  font-size:1.6em;
+  color:#ff9394;
+  padding-top: 3.7em;
+  
+}
+
+.buttons{
+  padding-top:1em;
+  font-size:1.6em;
+}
+
+.newQuoteButton{
+  width: 150px;
+  height: 50px;
+  float: right;
+  border-radius: 5%;
+  font-size: 0.8em;
+  
+}
+
+.tweet{
+  width: 150px;
+  height: 50px;
+  float: left;
+  border-radius: 5%;
+  font-size: 0.8em;
+}
+
+footer{
+  text-align:center;
+  font-size: 1.1em;
+  color:#7d5189;
+  padding-top:6em;
+}

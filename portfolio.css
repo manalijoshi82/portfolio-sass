@@ -1,0 +1,208 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+body {
+  background-color: #E0EBE8;
+  width: 100%;
+  margin: 0 auto;
+  font-size:16px;
+}
+
+.header p {
+  font-size: 4rem;
+  text-align: center;
+  margin:0 auto;
+  width:70%;
+  padding-bottom:4rem;
+  padding-top:6rem;
+  /*font-family: 'Capriola', sans-serif;*/
+  font-family: 'Lato', sans-serif;
+  color: #4AB19A;
+  background-image: url(../images/bg1.jpg)
+  animation-name: moveInLeft;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+.header .navbar-nav {
+  display: inline-block;
+  float: right;
+}
+
+.navbar-collapse {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+a {
+  font-family: 'Droid Serif', serif;
+  font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #000;
+  font-size: 1.5em;
+}
+
+
+.socialIcons {
+  width: 300px;
+  display: block;
+  margin: 0 auto;
+  animation-name: iconAppear;
+  animation-duration: 3.5s;
+  animation-timing-function: ease-in-out;
+}
+
+.social-icon {
+  color: #4AB19A;
+}
+
+.socialIcons li {
+  display: inline;
+  height: 100px;
+}
+
+.fa {
+  font-size: 30px;
+  text-align: center;
+}
+
+.fa-twitter {
+  padding: 10px 14px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.fa-codepen {
+  padding: 10px 12px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.fa-github {
+  padding: 10px 14px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.fa-instagram {
+  padding: 10px 14px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.fa-linkedin {
+  padding: 10px 14px;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10%;
+}
+
+a.aligncenter {
+  text-align: center;
+  color: black;
+  font-weight: bold;
+  font-size: 1.4em;
+  text-decoration: none;
+}
+
+a.aligncenter:hover {
+  color: #4AB19A;
+  cursor: pointer;
+}
+
+.work_samples {
+  margin-top: 70px;
+  animation-name: moveUp;
+  animation-duration: 2s;
+  animation-timing-function: ease-out;
+}
+
+img {
+  width: 250px;
+  height: 200px;
+  border-radius: 4px;
+  border: 3px solid #4AB19A;
+  padding: 0px;
+}
+
+img:hover {
+  border: 3px solid #000;
+}
+
+h3 {
+  font-size: 18px;
+  color: #000000;
+}
+
+.navbar-default {
+  background-color: transparent;
+}
+
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20rem);
+  }
+  80% {
+    transform: translateX(1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes moveUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20rem);
+  }
+  80% {
+    transform: translateY(-1rem);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0);
+  }
+}
+
+@keyframes iconAppear {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+

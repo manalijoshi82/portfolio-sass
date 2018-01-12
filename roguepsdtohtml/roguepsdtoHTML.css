@@ -1,0 +1,99 @@
+body{
+	width: 90%;
+	margin:	0 auto;
+}
+
+nav{
+	float: right;
+}
+nav li{
+	text-decoration: none;
+	list-style: none;
+	display: inline;
+	padding-right: 20px;
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+	color: #77a466;
+}
+
+nav li:last-child{
+	padding-right: 0px;
+}
+
+h2{
+	float: left;
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#rogue{
+	color: #77a466;
+}
+img{
+	width: 100%;
+}
+.middle	{
+	border-bottom: 2px solid #dedbdc;
+}
+.welcome {
+	color: #77a466;
+	font-size: 12px;
+	font-family: 'Montserrat', sans-serif;
+}
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 10px;
+}
+
+#sections{
+	width: 100%;
+	float: left;
+	border-bottom:  2px solid #dedbdc;
+
+}
+
+.section-one{
+	width: 25%;
+	float: left;
+	border-right: 2px solid #dedbdc;
+	padding-right: 80px;
+}
+
+.section-two{
+	width: 25%;
+	float: left;
+	padding-right: 60px;
+	padding-left: 20px;
+	border-right: 2px solid #dedbdc;
+}
+
+.section-three{
+	width: 25%;
+	float: left;
+	padding-left: 20px
+}
+.section-one h5{
+	text-decoration: none;
+	list-style-type: none;
+	font-size: 10px;
+	color: #77a466;
+}
+
+
+.special{
+	color: #000;
+	font-size: 10px;
+}
+
+.owner{
+	font-size: 10px;
+	text-align: center;
+	padding-top: 20px;
+	width: 100%;
+	clear: both;
+}
+
+em{
+	color: #77a466;
+}
+
