@@ -1,14 +1,23 @@
 {
-  "name": "portfolio",
+  "name": "portfolio-sass",
   "version": "1.0.0",
   "description": "my portfolio",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "node-sass sass/main.scss css/portfolio.css -w"
   },
-  "author": "",
+  "author": "Manali",
   "license": "ISC",
   "devDependencies": {
-    "node-sass": "^4.7.2"
-  }
+    "font-awesome": "^4.7.0",
+    "node-sass": "^4.8.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manalijoshi82/portfolio-sass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/manalijoshi82/portfolio-sass/issues"
+  },
+  "homepage": "https://github.com/manalijoshi82/portfolio-sass#readme"
 }

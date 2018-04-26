@@ -1,0 +1,40 @@
+/**********************************
+KEYFRAMES
+***********************************/
+
+@keyframes iconAppear {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-20rem);
+    }
+    80% {
+        transform: translateX(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInFromBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(3rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

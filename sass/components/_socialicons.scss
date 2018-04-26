@@ -1,0 +1,98 @@
+
+.socialIcons {
+    width: 30rem;
+    display: block;
+    padding-top: 1rem;
+    float: right;
+    /* text-decoration: none; */
+    animation-name: iconAppear;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: backwards;
+    z-index: 1;
+}
+
+.socialIcons li {
+  display: inline;
+  height: 10rem;
+  text-decoration: none;
+}
+
+.socialIcons__social-icon {
+  color: $color-teal;
+}
+
+.fa {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.fa-twitter {
+    padding: 1rem 1.4rem;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.fa-codepen {
+    padding: 1rem 1.2rem;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.fa-github {
+    padding: 1rem 1.4rem;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.fa-instagram {
+    padding: 1rem 1.4rem;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.fa-linkedin {
+    padding: 1rem 1.4rem;
+    -o-transition: .5s;
+    -ms-transition: .5s;
+    -moz-transition: .5s;
+    -webkit-transition: .5s;
+    transition: .5s;
+}
+
+.aligncenter {
+    clear: both;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10%;
+}
+
+a:hover {
+    color: $color-coral;
+    text-decoration: none;
+}
+
+a.aligncenter:hover {
+    color: $color-coral;
+    cursor: pointer;
+}
+
+a.aligncenter {
+    text-align: center;
+    /* color:black; */
+    /* font-weight:bold; */
+    font-size: 1.4em;
+    text-decoration: none;
+}

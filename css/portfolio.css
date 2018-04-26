@@ -1,0 +1,230 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+/* colors
+ teal : #0C4A60
+ coral: #EF6C33
+ iceblue: #ABDFF1
+ gray: #E1DDDB
+
+ pink:9F4298
+ green: CFDB31
+ violet: D1AFD3
+ gray: E6E7E8
+
+*/
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%;
+  /* Desired font size is 10px, but default is 16px. 10/16 = 62.5%  when user wants to change font .625 * 20px = 12.5px*/ }
+
+body {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  /* font-size: 16px; */
+  line-height: 1.7;
+  color: #0C4A60;
+  padding: 3rem;
+  box-sizing: border-box; }
+
+.header {
+  height: 150vh;
+  background-image: linear-gradient(to bottom, rgba(171, 223, 241, 0.8), rgba(12, 74, 96, 0.8)), url(../images/goldengate2.jpg);
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 100% 0, 100% 60%, 50% 80%, 0 60%); }
+  .header__text-box {
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center; }
+
+.socialIcons {
+  width: 30rem;
+  display: block;
+  padding-top: 1rem;
+  float: right;
+  /* text-decoration: none; */
+  animation-name: iconAppear;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: backwards;
+  z-index: 1; }
+
+.socialIcons li {
+  display: inline;
+  height: 10rem;
+  text-decoration: none; }
+
+.socialIcons__social-icon {
+  color: #0C4A60; }
+
+.fa {
+  font-size: 3rem;
+  text-align: center; }
+
+.fa-twitter {
+  padding: 1rem 1.4rem;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.fa-codepen {
+  padding: 1rem 1.2rem;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.fa-github {
+  padding: 1rem 1.4rem;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.fa-instagram {
+  padding: 1rem 1.4rem;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.fa-linkedin {
+  padding: 1rem 1.4rem;
+  -o-transition: .5s;
+  -ms-transition: .5s;
+  -moz-transition: .5s;
+  -webkit-transition: .5s;
+  transition: .5s; }
+
+.aligncenter {
+  clear: both;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 10%; }
+
+a:hover {
+  color: #EF6C33;
+  text-decoration: none; }
+
+a.aligncenter:hover {
+  color: #EF6C33;
+  cursor: pointer; }
+
+a.aligncenter {
+  text-align: center;
+  /* color:black; */
+  /* font-weight:bold; */
+  font-size: 1.4em;
+  text-decoration: none; }
+
+.heading-primary {
+  color: #fff;
+  backface-visibility: hidden; }
+  .heading-primary--main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 700;
+    margin-bottom: -2rem;
+    letter-spacing: .5rem;
+    animation-name: moveInLeft;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out; }
+  .heading-primary--sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 300;
+    letter-spacing: .2rem;
+    margin-bottom: 6rem; }
+
+.highlight {
+  color: #EF6C33; }
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  /* color: #fff; */
+  padding: 1rem 4rem;
+  display: inline-block;
+  border-radius: .8rem;
+  transition: all .2s;
+  position: relative; }
+
+.btn:visited {
+  color: #EF6C33; }
+
+.btn {
+  border: 0.2rem solid #0C4A60;
+  color: #EF6C33;
+  background-color: rgba(12, 74, 96, 0.8);
+  font-size: 2.6rem;
+  letter-spacing: .1rem;
+  /* font-weight: 900; */ }
+  .btn:hover {
+    transform: translateY(0.3rem);
+    color: #fff;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.2); }
+    .btn:hover::after {
+      transform: scaleX(1.4) scaleY(1.6);
+      opacity: 0; }
+  .btn:active {
+    transform: translateY(0.1rem);
+    color: #fff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+    font-weight: 200; }
+  .btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: .8rem;
+    background-color: rgba(12, 74, 96, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+    /* font-weight: 200; */ }
+  .btn--animated {
+    animation: moveInFromBottom .5s ease-out 1.5s;
+    animation-fill-mode: backwards; }
+
+/**********************************
+KEYFRAMES
+***********************************/
+@keyframes iconAppear {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-20rem); }
+  80% {
+    transform: translateX(1rem); }
+  100% {
+    opacity: 1;
+    transform: translate(0); } }
+
+@keyframes moveInFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(3rem); }
+  100% {
+    opacity: 1;
+    transform: translateY(0); } }
